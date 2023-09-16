@@ -20,7 +20,7 @@ Temas:
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 211006957  |  Sebastián Héctor Zuzunaga Rosado |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 
 ## Sobre 
