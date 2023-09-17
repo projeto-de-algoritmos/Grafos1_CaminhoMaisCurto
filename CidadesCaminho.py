@@ -20,6 +20,9 @@ class Grafo:
         visitados = set()
         cola = [inicio]
 
+        if inicio == final:
+            return f'Ya estas en la ciudad'
+
         while cola:
             nodo_actual = cola.pop(0)
             if nodo_actual not in visitados and nodo_actual is not final:
@@ -48,5 +51,4 @@ g.adiciona_aresta("Aguas claras", "Brasilia")
 
 g.mostra_lista()
 
-print("Recorrido BFS a partir del nodo 'Brasilia':")
 g.bfs("Gamma","Aguas claras")
