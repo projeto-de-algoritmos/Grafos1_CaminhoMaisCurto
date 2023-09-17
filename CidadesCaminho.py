@@ -1,5 +1,6 @@
 # Crear lista de adjacencia
 # Lista usa texto en lugar de numeros
+# Creado BFS, falta verificar
 
 class Grafo:
 
@@ -13,6 +14,18 @@ class Grafo:
     def adiciona_aresta(self, u, v):
         self.grafo[u].append(v)
         self.grafo[v].append(u)
+
+
+    def bfs(self, inicio, final):
+        visitados = set()
+        cola = [inicio]
+
+        while cola:
+            nodo_actual = cola.pop(0)
+            if nodo_actual not in visitados and nodo_actual is not final:
+                print(nodo_actual, end=' ')
+                visitados.add(nodo_actual)
+                cola.extend(vecino for vecino in self.grafo[nodo_actual])
 
     def mostra_lista(self):
         for nodo, vecinos in self.grafo.items():
@@ -34,3 +47,6 @@ g.adiciona_aresta("Floreanopolis", "Aguas claras")
 g.adiciona_aresta("Aguas claras", "Brasilia")
 
 g.mostra_lista()
+
+print("Recorrido BFS a partir del nodo 'Brasilia':")
+g.bfs("Gamma","Aguas claras")
