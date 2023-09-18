@@ -25,10 +25,15 @@ class Grafo:
 
         while cola:
             nodo_actual = cola.pop(0)
-            if nodo_actual not in visitados and nodo_actual is not final:
-                print(nodo_actual, end=' ')
-                visitados.add(nodo_actual)
-                cola.extend(vecino for vecino in self.grafo[nodo_actual])
+            if nodo_actual not in visitados:
+                if nodo_actual is final:
+                    print(nodo_actual, end=' ')
+                    break
+                else:
+                    print(nodo_actual, end=' ')
+                    visitados.add(nodo_actual)
+                    cola.extend(vecino for vecino in self.grafo[nodo_actual])
+
 
     def mostra_lista(self):
         for nodo, vecinos in self.grafo.items():
