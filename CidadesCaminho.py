@@ -1,7 +1,3 @@
-# Crear lista de adjacencia
-# Lista usa texto en lugar de numeros
-# Creado BFS, falta verificar
-
 class Grafo:
 
     def __init__(self):
@@ -18,22 +14,24 @@ class Grafo:
 
     def bfs(self, inicio, final):
         visitados = set()
-        cola = [inicio]
+        cola = [[inicio]]  
 
         if inicio == final:
-            return f'Ya estas en la ciudad'
+            return -1
 
         while cola:
-            nodo_actual = cola.pop(0)
-            if nodo_actual not in visitados:
-                if nodo_actual is final:
-                    print(nodo_actual, end=' ')
-                    break
-                else:
-                    print(nodo_actual, end=' ')
-                    visitados.add(nodo_actual)
-                    cola.extend(vecino for vecino in self.grafo[nodo_actual])
+            camino = cola.pop(0)
+            nodo_actual = camino[-1]
 
+            if nodo_actual not in visitados:
+                if nodo_actual == final:
+                    return camino
+                else:
+                    visitados.add(nodo_actual)
+                    for vecino in self.grafo[nodo_actual]:
+                        nuevo_camino = list(camino)
+                        nuevo_camino.append(vecino)
+                        cola.append(nuevo_camino)
 
     def mostra_lista(self):
         for nodo, vecinos in self.grafo.items():
@@ -41,6 +39,7 @@ class Grafo:
             for vecino in vecinos:
                 print(f'{vecino}  ->', end='  ')
             print('')
+
 
 g = Grafo()
 
@@ -56,4 +55,11 @@ g.adiciona_aresta("Aguas claras", "Brasilia")
 
 g.mostra_lista()
 
-g.bfs("Gamma","Aguas claras")
+camino_mas_corto = g.bfs("Gamma","Aguas claras")
+
+if camino_mas_corto and camino_mas_corto != -1:
+    print(f'El camino más corto es: {camino_mas_corto}')
+elif camino_mas_corto == -1:
+    print(f'Ya estas aqui')
+else:
+    print('No hay camino entre los nodos.')
