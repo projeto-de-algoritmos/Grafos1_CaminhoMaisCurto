@@ -63,3 +63,28 @@ elif camino_mas_corto == -1:
     print(f'Ya estas aqui')
 else:
     print('No hay camino entre los nodos.')
+
+option = 0
+inicio = 0
+final = 0
+nodo = 0
+nodo_con = 0
+while option != 5:
+    print('######Bemvindo a WayFinder#######')
+    print('Seleccione una opcion')
+    print('1.- Inserir nodo')
+    print('2.- Conectar nodo')
+    print('3.- Verificar estado de nodos')
+    print('4.- Buscar camino mas corto')
+    print('5.- Salir')
+
+    option = input()
+
+    match option:
+        case 1:
+            nodo = input('Ingrese nombre del nodo: ')
+            g.adiciona_nodo(nodo)
+        case 2:
+            nodo = input('Ingrese nombre del nodo a conectar: ')
+            nodo_con = input('Ingrese nombre del nodo con el cual hacer la conexion')
+            g.adiciona_aresta(nodo,nodo_con)
