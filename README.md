@@ -26,7 +26,7 @@ Temas:
 ## Sobre 
 Descreva os objetivos do seu projeto e como ele funciona. 
 O objetivo deste projeto é utilizar o algoritmo breadth first search para encontrar o caminho mais curto entre diferentes cidades do Brasil.
-- Neste caso, o gráfico é criado usando um diretório python onde os nós são armazenados com seus respectivos vizinhos, cada nó também é uma lista onde os vizinhos estão.
+- Neste caso, o gráfo é criado usando um diretório python onde os nós são armazenados com seus respectivos vizinhos, cada nó também é uma lista onde os vizinhos estão.
 - Para a função de adiciona_nodo, que será usada para criar uma cidade, cria-se uma lista vazia no diretório, a chave desta lista será colocada pelo usuário.
 - Para a função de remover_nodo, os vizinhos do nó que queremos remover serão pesquisados, então o nó será removido nas listas dos respectivos vizinhos, e o nó em si será finalmente removido.
 - Para a função de verificar_nodo, o nó é procurado no diretório usam a sua chave, se o nó existe retorna 1 se não 0.
