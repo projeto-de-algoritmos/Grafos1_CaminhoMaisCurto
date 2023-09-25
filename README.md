@@ -39,10 +39,10 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 ## Instalação 
 **Linguagem**: Python<br>
 **Framework**: Ninguem (por agora)<br>
-- **Prerequisitos**:
+- **Prerequisitos**:<br>
   Python<br>
   Windows PowerShell<br>
-- **Instruções**:
+- **Instruções**:<br>
   Abrir o Windows PowerShell<br>
   Usar o comando cd para chegar à pasta que contém o arquivo .py<br>
   Escrever o nome do programa com a extensão . py; neste caso CidadesCaminho.py<br>
