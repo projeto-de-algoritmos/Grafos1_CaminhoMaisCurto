@@ -10,7 +10,6 @@
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
 O objetivo deste projeto é utilizar o algoritmo breadth first search para encontrar o caminho mais curto entre diferentes cidades do Brasil.
 - Neste caso, o gráfo é criado usando um diretório python onde os nós são armazenados com seus respectivos vizinhos, cada nó também é uma lista onde os vizinhos estão.
 - Para a função de adiciona_nodo, que será usada para criar uma cidade, cria-se uma lista vazia no diretório, a chave desta lista será colocada pelo usuário.
@@ -45,10 +44,5 @@ Uma vez executado o programa aparecerá um menu com várias opções de 1 a 6.<b
 - Se você escrever 4 você quer verificar o estado de todas as cidades e aqueles que estão conectados.
 - Se se escreve 5 se quer encontrar o caminho mais curto entre 2 cidades, se faz uma verificação para assegurar que as 2 existam, se realiza o algoritmo BFS modificado, se há um caminho entre as 2 cidades se escreve este, caso contrário, uma mensagem será escrita dizendo que não existe caminho.
 - Se você escrever 6, você fecha o programa.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
 
 
