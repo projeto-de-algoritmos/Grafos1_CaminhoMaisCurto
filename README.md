@@ -39,7 +39,7 @@ Uma vez executado o programa aparecerá um menu com várias opções de 1 a 6.<b
 - Se você digitar 2 você está tentando fazer uma conexão, você escreve a cidade para conectar e, em seguida, para qual você deseja conectar, uma verificação será feita para garantir que as 2 cidades existem.
 - Se você digitar 3 você deseja remover uma cidade, o nome deve ser colocado pelo usuário, verifica se existe no grafo.
 - Se você escrever 4 você quer verificar o estado de todas as cidades e aqueles que estão conectados.
-- Se se escreve 5 se quer encontrar o caminho mais curto entre 2 cidades, se faz uma verificação para assegurar que as 2 existam, se realiza o algoritmo BFS modificado, se há um caminho entre as 2 cidades se escreve este, Ccaso contrário, uma mensagem será escrita dizendo que não existe caminho.
+- Se se escreve 5 se quer encontrar o caminho mais curto entre 2 cidades, se faz uma verificação para assegurar que as 2 existam, se realiza o algoritmo BFS modificado, se há um caminho entre as 2 cidades se escreve este, caso contrário, uma mensagem será escrita dizendo que não existe caminho.
 - Se você escrever 6, você fecha o programa.
 
 ## Outros 
