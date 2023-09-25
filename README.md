@@ -31,7 +31,7 @@ O objetivo deste projeto é utilizar o algoritmo breadth first search para encon
 - Para a função de remover_nodo, os vizinhos do nó que queremos remover serão pesquisados, então o nó será removido nas listas dos respectivos vizinhos, e o nó em si será finalmente removido.
 - Para a função de verificar_nodo, o nó é procurado no diretório usam a sua chave, se o nó existe retorna 1 se não 0.
 - Para a função de adiciona_aresta, usada para criar conexões, um nó A é adicionado à lista de vizinhos de outro nó B, depois o nó B é adicionado à lista de vizinhos do nó A, já que este é um gráfico não direcionado.
-
+- Para a função BFS primeiro se criam 2 listas, uma para armazenar os nodos já visitados e outra que conterá os caminhos percorridos, logo se faz uma verificação, se o nó começo é igual ao final, antes de começar com o loop então já se esta no lugar de destino, logo se inicia um loop, enquanto encontram elementos na fila de caminhos se executa o codigo, se extrai o primeiro caminho da cauda e deste caminho se extrai o primeiro elemento, é adicionado à lista de visitantes e todos os seus vizinhos são adicionados a uma cópia da estrada e, em seguida, este caminho é adicionado à lista, uma vez que chegar ao nó alvo retorna o caminho que alcanço, do contrário não retorna nada.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
