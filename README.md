@@ -21,7 +21,6 @@ O objetivo deste projeto é utilizar o algoritmo breadth first search para encon
 - Para a função mostrar_nodo á imprimir um nó, seguido isto para cada vizinho desse nó os respectivos vizinhos do nó serão impressos, isto é feito para cada nó no diretório.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
 ![image](https://github.com/sebazac332/Projeto-1-PA/assets/98188828/2774dce6-1ca9-4167-8681-671054506125)
 ![image](https://github.com/sebazac332/Projeto-1-PA/assets/98188828/69573d6b-be7f-4bf0-826c-a9974bec8702)
 ![image](https://github.com/sebazac332/Projeto-1-PA/assets/98188828/5b14e5e4-4c68-4fd2-adad-33ebe291424e)
