@@ -22,6 +22,7 @@ O objetivo deste projeto é utilizar o algoritmo breadth first search para encon
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
+![image](https://github.com/sebazac332/Projeto-1-PA/assets/98188828/2774dce6-1ca9-4167-8681-671054506125)
 
 ## Instalação 
 **Linguagem**: Python<br>
