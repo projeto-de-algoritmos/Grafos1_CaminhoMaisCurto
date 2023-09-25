@@ -78,7 +78,7 @@ while True:
     if option == '1':
         nodo = input('Digite o nome da cidade: ')
         compin = g.verificar_nodo(nodo)
-        if compin == 0:
+        if compin == 1:
             g.adiciona_nodo(nodo)
         else:
             print('A cidade já está registrada')
