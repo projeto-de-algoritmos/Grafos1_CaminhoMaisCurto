@@ -44,4 +44,5 @@ Uma vez executado o programa aparecerá um menu com várias opções de 1 a 6.<b
 - Se se escreve 5 se quer encontrar o caminho mais curto entre 2 cidades, se faz uma verificação para assegurar que as 2 existam, se realiza o algoritmo BFS modificado, se há um caminho entre as 2 cidades se escreve este, caso contrário, uma mensagem será escrita dizendo que não existe caminho.
 - Se você escrever 6, você fecha o programa.
 
-
+## Outros
+O vídeo está com os outros arquivos, não pôde ser colocado no readme já que excede o peso máximo permitido pelo Github.
