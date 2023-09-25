@@ -7,7 +7,6 @@
 |Matrícula | Aluno |
 | -- | -- |
 | 211006957  |  Sebastián Héctor Zuzunaga Rosado |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
 
 ## Sobre 
 O objetivo deste projeto é utilizar o algoritmo breadth first search para encontrar o caminho mais curto entre diferentes cidades do Brasil.
