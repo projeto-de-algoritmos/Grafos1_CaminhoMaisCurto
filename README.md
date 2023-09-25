@@ -41,7 +41,7 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 **Framework**: Ninguem (por agora)<br>
 **Prerequisitos**: 
 - Python
-- Windows PowerShell
+- Windows PowerShell<br>
 **Instruções**:
 - Abrir o Windows PowerShell
 - Usar o comando cd para chegar à pasta que contém o arquivo .py
